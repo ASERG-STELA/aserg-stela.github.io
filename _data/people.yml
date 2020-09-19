@@ -12,10 +12,16 @@ marjory:
 #    image: /img/people/marjory.jpg
     bio: Senior Lecturer
 
-shaun:
-    display_name: "Shaun Holt"
+ChrisB:
+    display_name: "Dr. Chris Bates"
     role: faculty
-    bio: Senior Lecturer
+#   image: /img/people/
+    bio: Principal Lecturer
+
+#shaun:
+#    display_name: "Shaun Holt"
+#    role: faculty
+#    bio: Senior Lecturer
 
 # prof-a:
 #     display_name: "Prof A"
