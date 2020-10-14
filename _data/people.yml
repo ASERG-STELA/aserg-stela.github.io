@@ -2,9 +2,16 @@
 kaduardo:
     display_name: "Dr. Carlos Eduardo da Silva"
     github: kaduardo
-    role: faculty
+    role: academic
     image: /img/people/carlos.jpg
     bio: Senior Lecturer
+
+yan:
+    display_name: "Yan Justino de Lima"
+#    github:
+    role: collab
+#    image:
+#    bio: 
 
 # marjory:
 #     display_name: "Dr. Márjory da Costa Abreu"
@@ -183,3 +190,8 @@ kaduardo:
 # ugrad-alum-b:
 #     display_name: "Past Ugrad Student B With Long Name"
 #     role: ugrad-alum
+Angus:
+    display_name: "Angus Young"
+    github: angusgyoung
+    role: ugrad-alum
+    
