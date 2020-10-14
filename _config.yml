@@ -1,5 +1,6 @@
 name: Software Engineering Research Group
-url: http://serg-shu.github.io
+url: #http://serg-shu.github.io
+baseurl: 
 
 exclude: [bibble, README.md, Makefile, screenshot.png]
 
