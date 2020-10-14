@@ -6,17 +6,17 @@ kaduardo:
     image: /img/people/carlos.jpg
     bio: Senior Lecturer
 
-marjory:
-    display_name: "Dr. Márjory da Costa Abreu"
-    role: faculty
-#    image: /img/people/marjory.jpg
-    bio: Senior Lecturer
+# marjory:
+#     display_name: "Dr. Márjory da Costa Abreu"
+#     role: faculty
+#     image: /img/people/marjory.jpg
+#     bio: Senior Lecturer
 
-ChrisB:
-    display_name: "Dr. Chris Bates"
-    role: faculty
+#ChrisB:
+#    display_name: "Dr. Chris Bates"
+#    role: faculty
 #   image: /img/people/
-    bio: Principal Lecturer
+#    bio: Principal Lecturer
 
 #shaun:
 #    display_name: "Shaun Holt"
