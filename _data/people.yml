@@ -1,14 +1,31 @@
 
 kaduardo:
+    # Name that will appear in the main page
     display_name: "Dr. Carlos Eduardo da Silva"
+    # The url for a webpage
+    webpage: https://kaduardo.github.io
+    # the github login 
     github: kaduardo
-    role: academic
+    # An image to use in the person card
     image: /img/people/carlos.jpg
+    # A very short bio description
     bio: Senior Lecturer
+    # The role of the person based on _config.yml
+    role: academic
 
-yan:
-    display_name: "Yan Justino de Lima"
-#    github:
+yanjustino:
+    # Name that will appear in the main page
+    display_name: Yan Justino
+    # The url for a webpage
+    webpage: https://www.linkedin.com/in/yanjustino/
+    # the github login
+    github: yanjustino
+    # An image to use in the person card
+    image: /img/people/yanjustino.png
+    # A very short bio description
+    bio: Senior software engineer at XP Inc
+    #    I am a professional focused on adopting good software engineering practices; 19 years of experience dedicated to building robust corporate software solutions. Currently, I am a senior software engineer at XP Inc, working in the financial area building service-oriented solutions. In addition, I have a master's degree in Software Engineering from the graduate program of the Metropole Digital Institute (IMD) / UFRN.
+    # The role of the person based on _config.yml
     role: collab
 #    image:
 #    bio: 
