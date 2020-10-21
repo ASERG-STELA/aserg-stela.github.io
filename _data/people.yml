@@ -9,7 +9,7 @@ kaduardo:
     # An image to use in the person card
     image: /img/people/carlos.jpg
     # A very short bio description
-    bio: Senior Lecturer
+    bio: Senior Lecturer in Software Engineering and Leader of ASERG
     # The role of the person based on _config.yml
     role: academic
 
@@ -29,6 +29,19 @@ yanjustino:
     role: collab
 #    image:
 #    bio: 
+
+eduardoluiz:
+    #Name that will appear in the main page
+    display_name: Eduardo Luiz
+    # The url for a webpage
+    webpage: https://www.linkedin.com/in/eduardo-luizgs/
+    # the github login
+    github: eduardoluizgs
+    # An image to use in the person card
+    image: /img/people/eduardoluiz.png
+    # A very short bio description
+    bio:  Senior Software Analyst at Ivia/Wilpro
+    role: collab
 
 # marjory:
 #     display_name: "Dr. Márjory da Costa Abreu"
