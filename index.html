@@ -41,7 +41,23 @@ role-tables:
 <section>
     <h2>News</h2>
     <ul class="news list-unstyled">
-        {% for post in site.posts limit: site.front_page_news %}
+        {% for post in site.categories["news"] limit: site.front_page_news %}
+            {% include news-item.html item=post %}
+        {% endfor %}
+    </ul>
+    {% assign numposts = site.posts | size %}
+    {% if numposts >= 1 %}
+        <p>
+            <span class="fa fa-fw fa-history"></span>
+            <a href="{{ site.base }}/news.html">Older news&hellip;</a>
+        </p>
+    {% endif %}
+</section>
+<!-- comment 
+<section>
+    <h2>Posts</h2>
+    <ul class="news list-unstyled">
+        {% for post in site.categories["blog"] limit: site.front_page_news %}
             {% include news-item.html item=post %}
         {% endfor %}
     </ul>
@@ -53,7 +69,7 @@ role-tables:
         </p>
     {% endif %}
 </section>
-
+-->
 <section>
     <h2>Research</h2>
     <div class="card-columns">
