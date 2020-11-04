@@ -2,6 +2,8 @@
 #- `title:` The project title.
 title: edudrive@RNP
 #- `notitle:` Set this to `true` if you don't want a title displayed on the project card. Optional.
+#- `subtitle:` The project subtitle
+#subtitle:
 #- `description:` The text shown in the project card. It supports markdown.
 description: A Cloud Computing storage service for academics and researchers of Brazilian institutions.
 #- `people:` The people working on the project. This is a list of keys from the `_data/people.yml` file.
