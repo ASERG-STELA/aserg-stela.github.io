@@ -13,6 +13,21 @@ kaduardo:
     # The role of the person based on _config.yml
     role: academic
 
+marjory:
+    # Name that will appear in the main page
+    display_name: "Dr. Marjory Da Costa-Abreu"
+    # The url for a webpage
+    webpage: https://orcid.org/0000-0001-7461-7570
+    # the github login
+    github: profmarjory
+    # An image to use in the person card
+    image: /img/people/marjory.png
+    # A very short bio description
+    bio: Artificial Intelligence for Muggles!
+    role: academic
+    social media: https://www.instagram.com/profmarjory/, https://twitter.com/profmarjory, https://www.linkedin.com/in/profmarjory/
+
+
 yanjustino:
     # Name that will appear in the main page
     display_name: Yan Justino
