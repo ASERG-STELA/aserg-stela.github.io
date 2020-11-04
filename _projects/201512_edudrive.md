@@ -27,34 +27,32 @@ Under the leadership of Dr. Roberto Araujo and Dr. Carlos da Silva the project w
 
 The project studied, developed and deployed the first cloud computing storage solution in Brazilian territory based on the Openstack cloud computing platform and the Owncloud framework, with support to federated authentication through the CAFe service of RNP.
 
-
-<img class="col three left" src="{{ site.baseurl }}/img/projects/edudrive/cncoverview.png" alt="Overview of the CNC architecture" title="Overview of the CNC architecture"/>
-
-<div class="col three caption">
-Overview of the CNC architecture.
-</div>
+<figure class="text-center">
+  <img class="figure-img img-fluid rounded" src="{{ site.baseurl }}/img/projects/edudrive/cncoverview.png" alt="Overview of the CNC architecture" title="Overview of the CNC architecture"/>
+  <figcaption class="figure-caption">Overview of the CNC architecture.</figcaption>
+</figure>
 
 The project was conducted over 5 years (phases):
 
-**Phase #1 (2011-2012) - Prototype**
+### Phase #1 (2011-2012) - Prototype
 
 In its first phase the project was focused on a detailed study of cloud-based storage systems with an evaluation of different tools for building cloud computing storage services. This study resulted in the deploying of a prototype using the Openstack cloud computing platform, one of the tools evaluated, with servers spread over two Brazilian universities over 3700 Km apart.
 
-**Phase #2 (2012-2013) - Pilot**
+### Phase #2 (2012-2013) - Pilot
 
 In its second phase the project was focused in refining the developed prototype into a pilot service. This included the development of Web-based access and desktop file synchronization into the storage service, similar to available commercial services, and the integration of the cloud storage service into the federated authentication service provided by RNP (CAFe - Comunidade Acadêmica Federada). The pilot was made available to a number of academics all over Brazil.
 
-**Phase #3 (2013-2014) - Experimental Service**
+### Phase #3 (2013-2014) - Experimental Service
 
 In its third phase the pilot was further refined and deployed as an experimental service, being offered to 11 academic and research institutions all over Brazil. 
 This phase was focused on aspects related to user experience, with an improvement of its Web-based interface based on the Owncloud framework and its integration to the CAFe federated authentication service, the development of new functionalities and an expansion of its supporting infrastructure, with a new dashboard for monitoring and management of the service.
 
-**Phase #4 (2014-2015) - Experimental Service 2**
+### Phase #4 (2014-2015) - Experimental Service 2
 
 The fourth phase focused on the development of new functionalities, with a focus on mobile and desktop clients. It also included the development of tools and approaches for the monitoring, management and maintenance of the cloud infrastructure, as well as a refining of the security aspects of the service (e.g., access control) and its usage of cryptographic technologies. This phase also included aspects related to service governance and the planning of the transition into a production service. 
 The service continues to be used by 11 institutions with the objective of obtaining feedback to the development team, and is .
 
-**Phase #5 (2015-2020) - Production**
+### Phase #5 (2015-2020) - Production
 
 The fifth phase marks the transition from an experimental service maintained by a research group into a full-fledge product to be offered by RNP to its clients. Now rebranded as [edudrive@RNP](https://edudrive.rnp.br) the service is maintained and operated by RNP in partnership with [Anolis TI](https://anolis.com.br/), a spin-off company created by the participants of the project.
 
@@ -62,7 +60,8 @@ In this phase the service started to be used in production scenarios and new fea
 
 Today, edudrive@RNP is used by five large institutions in Brazil and stores millions of files, resulting in terabytes of storage data in its environment.
 
-***Publications***
+# Publications
+
 * <span class="title"><b>Managing Access to Service Providers in Federated Identity Environments: A Case Study in a Cloud Storage Service</b></span>
 by <span class="author">Diniz, Thomas F. S., Felipe, Andre Luiz Castro, Medeiros, Taina J., da Silva, Carlos Eduardo, and Araujo, Roberto</span>
 <span class="periodical"><em>In 2015 XXXIII Brazilian Symposium on Computer Networks and Distributed Systems, 2015</em></span>
