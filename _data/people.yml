@@ -1,4 +1,4 @@
-
+### Academics
 kaduardo:
     # Name that will appear in the main page
     display_name: "Dr. Carlos Eduardo da Silva"
@@ -27,7 +27,7 @@ marjory:
     role: academic
     social media: https://www.instagram.com/profmarjory/, https://twitter.com/profmarjory, https://www.linkedin.com/in/profmarjory/
 
-
+### Collaborators
 yanjustino:
     # Name that will appear in the main page
     display_name: Yan Justino
@@ -57,12 +57,6 @@ eduardoluiz:
     # A very short bio description
     bio:  Senior Software Analyst at Ivia/Wilpro
     role: collab
-
-# marjory:
-#     display_name: "Dr. Márjory da Costa Abreu"
-#     role: faculty
-#     image: /img/people/marjory.jpg
-#     bio: Senior Lecturer
 
 #ChrisB:
 #    display_name: "Dr. Chris Bates"
@@ -208,6 +202,22 @@ eduardoluiz:
 #     display_name: "Collaborator E"
 #     role: collab
 
+
+### Undergraduate students
+jamesharmson:
+   # Name that will appear in the main page
+    display_name: "James Harmson" 
+    # The url for a webpage
+    webpage: https://github.com/J-Harmson 
+    # the github login 
+    github: J-Harmson
+    # An image to use in the person card
+    #image: /img/people/carlos.jpg
+    # A very short bio description
+    bio: Student at Sheffield Hallam University
+    # The role of the person based on _config.yml
+    role: ugrad
+
 # ugrad-a:
 #     display_name: "Ugrad A"
 #     role: ugrad
@@ -235,6 +245,7 @@ eduardoluiz:
 # ugrad-alum-b:
 #     display_name: "Past Ugrad Student B With Long Name"
 #     role: ugrad-alum
+### Undergraduate alumni
 Angus:
     display_name: "Angus Young"
     github: angusgyoung
