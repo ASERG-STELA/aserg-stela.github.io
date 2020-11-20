@@ -16,6 +16,7 @@ image: /img/projects/edudrive/logo-edudrive-vetorizada.svg.png
 #- `last-updated:` Date in the format of `YYYY-MM-DD`. The project cards are sorted by this, most recent first.
 last-updated: 2015-01-01
 #- `status: inactive` Set this to `inactive` if don't want the project to appear on the front page. Just ignore it otherwise.
+status: inactive
 #- `link:` Set this to an external URL if this project has a page somewhere else on the web. If you don't have a `link:`, then the content of this markdown file (below the YAML frontmatter) will be this project's page.
 #- `no-link: true` Set this if you just don't want a project page for your project.
 ---
