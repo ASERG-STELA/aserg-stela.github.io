@@ -218,6 +218,19 @@ eduardoluiz:
 #     display_name: "Collaborator E"
 #     role: collab
 
+### Post-graduate students
+BrianDavis:
+    # Name that will appear in the main page
+    display_name: "Brian Davis"
+    # The url for a webpage
+    webpage: https://haze9725.github.io
+    # the github login
+    github: haze9725
+    # An image to use in the person card
+    #image: ---
+    # A very short bio description
+    bio: MSc student in Big Data Analytics, BSc Graduate in Computer Science.
+    role: grad
 
 ### Undergraduate students
 JamesHarmson:
