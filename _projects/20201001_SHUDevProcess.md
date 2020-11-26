@@ -10,6 +10,7 @@ description: A Software Development process that can be followed by students at 
 people:
   - kaduardo
   - JamesHarmson
+  - BrianDavis
 #- `layout: project` This sets the layout of the actual project page. It should be set to `project`.
 layout: project
 #- `image:` The URL of an image for the project. This is shown on both the project page and the project card. Optional.
