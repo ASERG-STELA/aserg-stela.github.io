@@ -27,8 +27,6 @@ marjory:
     role: academic
     social media: https://www.instagram.com/profmarjory/, https://twitter.com/profmarjory, https://www.linkedin.com/in/profmarjory/
 
-
-
 LaurieHirsch:
    # Name that will appear in the main page
     display_name: "Dr Laurie Hirsch"
@@ -42,6 +40,23 @@ LaurieHirsch:
     bio: Senior Lecturer in Computing
     # The role of the person based on _config.yml
     role: academic
+
+SoumyaBasu:
+    # Name that will appear in the main page
+    display_name: "Dr. Soumya Sankar Basu"
+    # The url for a webpage
+    webpage: www.linkedin.com/in/basuss
+    # https://orcid.org/0000-0001-5237-1127
+    # the github login 
+    #github: kaduardo
+    #github login ssbasu@yahoo.com
+    # An image to use in the person card
+    #image: /img/people/carlos.jpg
+    # A very short bio description
+    bio: Senior Lecturer in Software Engineering
+    # The role of the person based on _config.yml
+    role: academic
+
 
 ### Collaborators
 yanjustino:
@@ -241,7 +256,7 @@ JamesHarmson:
     # the github login 
     github: J-Harmson
     # An image to use in the person card
-    #image: /img/people/carlos.jpg
+    image: /img/people/JamesHarmson.jpg
     # A very short bio description
     bio: Student at Sheffield Hallam University
     # The role of the person based on _config.yml
