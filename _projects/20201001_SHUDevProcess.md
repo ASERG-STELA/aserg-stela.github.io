@@ -9,6 +9,7 @@ description: A Software Development process that can be followed by students at 
 #- `people:` The people working on the project. This is a list of keys from the `_data/people.yml` file.
 people:
   - kaduardo
+  - SoumyaBasu
   - JamesHarmson
   - BrianDavis
 #- `layout: project` This sets the layout of the actual project page. It should be set to `project`.
