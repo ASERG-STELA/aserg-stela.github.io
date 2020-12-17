@@ -1,4 +1,6 @@
+##########################################
 ### Academics
+##########################################
 kaduardo:
     # Name that will appear in the main page
     display_name: "Dr. Carlos Eduardo da Silva"
@@ -57,59 +59,13 @@ LaurieHirsch:
     # The role of the person based on _config.yml
     role: academic
 
-### Collaborators
-yanjustino:
-    # Name that will appear in the main page
-    display_name: Yan Justino
-    # The url for a webpage
-    webpage: https://www.linkedin.com/in/yanjustino/
-    # the github login
-    github: yanjustino
-    # An image to use in the person card
-    image: /img/people/yanjustino.png
-    # A very short bio description
-    bio: Senior software engineer at XP Inc
-    #    I am a professional focused on adopting good software engineering practices; 19 years of experience dedicated to building robust corporate software solutions. Currently, I am a senior software engineer at XP Inc, working in the financial area building service-oriented solutions. In addition, I have a master's degree in Software Engineering from the graduate program of the Metropole Digital Institute (IMD) / UFRN.
-    # The role of the person based on _config.yml
-    role: collab
-#    image:
-#    bio: 
+##########################################
+### Research Fellows and Associates
+##########################################
 
-eduardoluiz:
-    #Name that will appear in the main page
-    display_name: Eduardo Luiz
-    # The url for a webpage
-    webpage: https://www.linkedin.com/in/eduardo-luizgs/
-    # the github login
-    github: eduardoluizgs
-    # An image to use in the person card
-    image: /img/people/eduardoluiz.png
-    # A very short bio description
-    bio:  Senior Software Analyst at Ivia/Wilpro
-    role: collab
-
-#ChrisB:
-#    display_name: "Dr. Chris Bates"
-#    role: faculty
-#   image: /img/people/
-#    bio: Principal Lecturer
-
-#shaun:
-#    display_name: "Shaun Holt"
-#    role: faculty
-#    bio: Senior Lecturer
-
-# prof-a:
-#     display_name: "Prof A"
-#     role: faculty
-
-# prof-b:
-#     display_name: "Prof B"
-#     role: faculty
-
-# prof-c:
-#     display_name: "Prof C"
-#     role: faculty
+##########################################
+### Templates/examples
+##########################################
 
 # profx:
 #     display_name: "Professor X"
@@ -146,33 +102,6 @@ eduardoluiz:
 #     display_name: "Graduate Student B With Long Name"
 #     role: grad
 
-# grad-c:
-#     display_name: "Grad C"
-#     role: grad
-
-# grad-d:
-#     display_name: "Grad D"
-#     role: grad
-
-# grad-e:
-#     display_name: "Grad E"
-#     role: grad
-
-# grad-f:
-#     display_name: "Grad F"
-#     role: grad
-
-# grad-g:
-#     display_name: "Grad G"
-#     role: grad
-
-# grad-h:
-#     display_name: "Grad H"
-#     role: grad
-
-# grad-i:
-#     display_name: "Grad I"
-#     role: grad
 
 # alum-a:
 #     display_name: "Alum A"
@@ -183,56 +112,11 @@ eduardoluiz:
 #     display_name: "Alum B With Way Longer Name"
 #     role: alum
 
-# alum-c:
-#     display_name: "Alum C"
-#     role: alum
-#     webpage: "https://www.google.com"
 
-# alum-d:
-#     display_name: "Alum D"
-#     role: alum
+##########################################
+### Research students
 
-# alum-e:
-#     display_name: "Alum E"
-#     role: alum
-
-# alum-f:
-#     display_name: "Alum F"
-#     role: alum
-
-# alum-g:
-#     display_name: "Alum G"
-#     role: alum
-
-# alum-h:
-#     display_name: "Alum H"
-#     role: alum
-
-# alum-i:
-#     display_name: "Alum I"
-#     role: alum
-
-# collab-a:
-#     display_name: "Collaborator A"
-#     role: collab
-
-# collab-b:
-#     display_name: "Collaborator B With Long Name"
-#     role: collab
-
-# collab-c:
-#     display_name: "Collaborator C"
-#     role: collab
-
-# collab-d:
-#     display_name: "Collaborator D"
-#     role: collab
-
-# collab-e:
-#     display_name: "Collaborator E"
-#     role: collab
-
-### Post-graduate students
+### MSc students
 BrianDavis:
     # Name that will appear in the main page
     display_name: "Brian Davis"
@@ -244,7 +128,7 @@ BrianDavis:
     #image: ---
     # A very short bio description
     bio: MSc student in Big Data Analytics, BSc Graduate in Computer Science.
-    role: grad
+    role: researchstudent
 
 ### Undergraduate students
 JamesHarmson:
@@ -259,38 +143,51 @@ JamesHarmson:
     # A very short bio description
     bio: Student at Sheffield Hallam University
     # The role of the person based on _config.yml
-    role: ugrad
+    role: researchstudent
 
-# ugrad-a:
-#     display_name: "Ugrad A"
-#     role: ugrad
 
-# ugrad-b:
-#     display_name: "Ugrad Student B With Long Name"
-#     role: ugrad
+##########################################
+### Visiting and Collaborators
+##########################################
+yanjustino:
+    # Name that will appear in the main page
+    display_name: Yan Justino
+    # The url for a webpage
+    webpage: https://www.linkedin.com/in/yanjustino/
+    # the github login
+    github: yanjustino
+    # An image to use in the person card
+    image: /img/people/yanjustino.png
+    # A very short bio description
+    bio: Senior software engineer at XP Inc
+    #    I am a professional focused on adopting good software engineering practices; 19 years of experience dedicated to building robust corporate software solutions. Currently, I am a senior software engineer at XP Inc, working in the financial area building service-oriented solutions. In addition, I have a master's degree in Software Engineering from the graduate program of the Metropole Digital Institute (IMD) / UFRN.
+    # The role of the person based on _config.yml
+    role: collab
+#    image:
+#    bio: 
 
-# ugrad-c:
-#     display_name: "Ugrad C"
-#     role: ugrad
+eduardoluiz:
+    #Name that will appear in the main page
+    display_name: Eduardo Luiz
+    # The url for a webpage
+    webpage: https://www.linkedin.com/in/eduardo-luizgs/
+    # the github login
+    github: eduardoluizgs
+    # An image to use in the person card
+    image: /img/people/eduardoluiz.png
+    # A very short bio description
+    bio:  Senior Software Analyst at Ivia/Wilpro
+    role: collab
 
-# ugrad-d:
-#     display_name: "Ugrad D"
-#     role: ugrad
 
-# ugrad-e:
-#     display_name: "Ugrad E"
-#     role: ugrad
-
-# ugrad-alum-a:
-#     display_name: "Past Ugrad A"
-#     role: ugrad-alum
-
-# ugrad-alum-b:
-#     display_name: "Past Ugrad Student B With Long Name"
-#     role: ugrad-alum
-### Undergraduate alumni
+##########################################
+### Past Research Students
+##########################################
 Angus:
     display_name: "Angus Young"
     github: angusgyoung
-    role: ugrad-alum
-    
+    role: alumni
+
+##########################################
+### Past Members
+##########################################
