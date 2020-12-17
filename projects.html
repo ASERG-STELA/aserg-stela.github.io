@@ -1,8 +1,103 @@
----
-layout: default
-title: Research and Development Projects
----
-<div class="jumbotron">
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>Applied Software Engineering Research Group: Research and Development Projects</title>
+        <meta charset="utf-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+        <link rel="stylesheet"
+              href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0-beta.2/css/bootstrap.min.css"
+              integrity="sha384-PsH8R72JQ3SOdhVi3uxftmaW6Vc51MKb0q5P2rRUpPvrszuE4W1povHYgTpBfshb"
+              crossorigin="anonymous">
+        <link rel="stylesheet"
+              href="https://maxcdn.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css">
+        <link rel="stylesheet" href="/css/group.css">
+    </head>
+    <body>
+        <div class="container">
+            <!-- This is a bit nasty, but it basically says be a column first, and on larger screens be a spaced out row -->
+            <div class="header d-flex
+                        flex-column
+                        flex-md-row justify-content-md-between">
+                <a href="/" class="">
+                    <!-- <img src="/img/logo.png"
+                         srcset="/img/logo@2x.png 2x"
+                         alt="Awesome" id="logo"> --> ASERG@SHU
+                </a>
+                <ul class="nav nav-pills justify-content-center">
+
+                    
+                    
+
+                        
+
+                        
+                        
+                        
+
+                        <li class="nav-item">
+                            <a class="nav-link "
+                               href="/">
+                                Home
+                            </a>
+                        </li>
+
+                    
+
+                        
+
+                        
+                        
+                        
+
+                        <li class="nav-item">
+                            <a class="nav-link "
+                               href="/#people">
+                                People
+                            </a>
+                        </li>
+
+                    
+
+                        
+
+                        
+                        
+                        
+
+                        <li class="nav-item">
+                            <a class="nav-link active"
+                               href="/projects.html">
+                                Projects
+                            </a>
+                        </li>
+
+                    
+
+                        
+
+                        
+                        
+                        
+
+                        <li class="nav-item">
+                            <a class="nav-link "
+                               href="/publications.html">
+                                Publications
+                            </a>
+                        </li>
+
+                    
+
+                </ul>
+            </div>
+
+            
+
+            
+                <h1>Research and Development Projects</h1>
+            
+
+            <div class="jumbotron">
     <p>
         <b>ASERG@SHU</b> has a strong focus on applied software engineering research.
         It's members have a track record of industry and applied projects. 
@@ -20,12 +115,364 @@ title: Research and Development Projects
 
 
 <div class="card-columns">
-    {% comment %}
-    Sort the projects by date, putting those without dates last
-    {% endcomment %}
-    {% assign projects_by_date = site.projects | sort: 'last-updated', 'first' %}
-    {% assign projects_by_date = projects_by_date | reverse %}
-    {% for p in projects_by_date %}
-        {% include project-card.html project=p %}
-    {% endfor %}
+    
+    
+    
+    
+        
+
+
+
+
+<div class="card">
+    <div class="card-body">
+        
+        
+            <h4 class="card-title">
+                Software Development Process for Students
+            </h4>
+        
+        
+        <div class="card-text">
+            <p>A Software Development process that can be followed by students at all levels as they work on both individual and group assessments.</p>
+
+        </div>
+        
+            <a href="/projects/20201001_SHUDevProcess.html"> Read more &raquo;</a>
+        
+    </div>
+    
+        <div class="card-footer d-flex flex-row flex-wrap justify-content-center">
+            
+                <div>
+                    
+                    
+
+
+
+
+
+
+
+    <a href="https://kaduardo.me"
+       style="text-decoration: none">
+        
+        <img class="rounded-circle profile"
+             alt="Dr. Carlos Eduardo da Silva"
+             title="Dr. Carlos Eduardo da Silva"
+             src="/img/people/carlos.jpg" />
+    
+    </a>
+
+
+                </div>
+            
+                <div>
+                    
+                    
+
+
+
+
+
+
+
+    <a href="www.linkedin.com/in/basuss"
+       style="text-decoration: none">
+        
+        <svg class="profile noprofile"
+             alt="Dr. Soumya Sankar Basu"
+             viewBox="0 0 100 100">
+            <title>Dr. Soumya Sankar Basu</title>
+            <circle r="50" cx="50" cy="50" />
+            <text x="50" y="50"
+                  font-size="70"
+                  text-anchor="middle" dominant-baseline="central" >
+                D
+            </text>
+        </svg>
+    
+    </a>
+
+
+                </div>
+            
+                <div>
+                    
+                    
+
+
+
+
+
+
+
+    <a href="https://github.com/J-Harmson"
+       style="text-decoration: none">
+        
+        <img class="rounded-circle profile"
+             alt="James Harmson"
+             title="James Harmson"
+             src="/img/people/JamesHarmson.jpg" />
+    
+    </a>
+
+
+                </div>
+            
+                <div>
+                    
+                    
+
+
+
+
+
+
+
+    <a href="https://haze9725.github.io"
+       style="text-decoration: none">
+        
+        <svg class="profile noprofile"
+             alt="Brian Davis"
+             viewBox="0 0 100 100">
+            <title>Brian Davis</title>
+            <circle r="50" cx="50" cy="50" />
+            <text x="50" y="50"
+                  font-size="70"
+                  text-anchor="middle" dominant-baseline="central" >
+                B
+            </text>
+        </svg>
+    
+    </a>
+
+
+                </div>
+            
+        </div>
+    
 </div>
+
+    
+        
+
+
+
+
+<div class="card">
+    <div class="card-body">
+        
+            
+            
+            
+            <a href="https://wordpress.sj.ifsc.edu.br/gtampto/en/home/">
+                <img class="img-fluid mb-3" src="/img/projects/ampto/gt-ampto-logo-150x150.png" alt="GT-AMPTo - Multi-Factor Authentication to Shibboleth Identity Providers"/>
+            </a>
+        
+        
+            <h4 class="card-title">
+                GT-AMPTo - Multi-Factor Authentication to Shibboleth Identity Providers
+            </h4>
+        
+        
+        <div class="card-text">
+            <p>This project aims to develop a solution that allows the Brazilian Academic Federation (CAFe) to operate with multiple authentication factors on Shibboleth Identity Providers.</p>
+
+        </div>
+        
+            <a href="https://wordpress.sj.ifsc.edu.br/gtampto/en/home/"> Read more &raquo;</a>
+        
+    </div>
+    
+        <div class="card-footer d-flex flex-row flex-wrap justify-content-center">
+            
+                <div>
+                    
+                    
+
+
+
+
+
+
+
+    <a href="https://kaduardo.me"
+       style="text-decoration: none">
+        
+        <img class="rounded-circle profile"
+             alt="Dr. Carlos Eduardo da Silva"
+             title="Dr. Carlos Eduardo da Silva"
+             src="/img/people/carlos.jpg" />
+    
+    </a>
+
+
+                </div>
+            
+        </div>
+    
+</div>
+
+    
+        
+
+
+
+
+<div class="card">
+    <div class="card-body">
+        
+            
+            
+            
+            <a href="/projects/201808_SPReaD.html">
+                <img class="img-fluid mb-3" src="/img/projects/spread/SPReaD_Triad.jpeg" alt="Service Oriented Process for Agile Development"/>
+            </a>
+        
+        
+            <h4 class="card-title">
+                Service Oriented Process for Agile Development
+            </h4>
+        
+        
+        <div class="card-text">
+            <p>A Software Development process for developing microservices following the Service-orientation principles.</p>
+
+        </div>
+        
+            <a href="/projects/201808_SPReaD.html"> Read more &raquo;</a>
+        
+    </div>
+    
+        <div class="card-footer d-flex flex-row flex-wrap justify-content-center">
+            
+                <div>
+                    
+                    
+
+
+
+
+
+
+
+    <a href="https://kaduardo.me"
+       style="text-decoration: none">
+        
+        <img class="rounded-circle profile"
+             alt="Dr. Carlos Eduardo da Silva"
+             title="Dr. Carlos Eduardo da Silva"
+             src="/img/people/carlos.jpg" />
+    
+    </a>
+
+
+                </div>
+            
+                <div>
+                    
+                    
+
+
+
+
+
+
+
+    <a href="https://www.linkedin.com/in/yanjustino/"
+       style="text-decoration: none">
+        
+        <img class="rounded-circle profile"
+             alt="Yan Justino"
+             title="Yan Justino"
+             src="/img/people/yanjustino.png" />
+    
+    </a>
+
+
+                </div>
+            
+        </div>
+    
+</div>
+
+    
+        
+
+
+
+
+<div class="card">
+    <div class="card-body">
+        
+            
+            
+            
+            <a href="/projects/201512_edudrive.html">
+                <img class="img-fluid mb-3" src="/img/projects/edudrive/logo-edudrive-vetorizada.svg.png" alt="edudrive@RNP"/>
+            </a>
+        
+        
+            <h4 class="card-title">
+                edudrive@RNP
+            </h4>
+        
+        
+        <div class="card-text">
+            <p>A Cloud Computing storage service for academics and researchers of Brazilian institutions.</p>
+
+        </div>
+        
+            <a href="/projects/201512_edudrive.html"> Read more &raquo;</a>
+        
+    </div>
+    
+        <div class="card-footer d-flex flex-row flex-wrap justify-content-center">
+            
+                <div>
+                    
+                    
+
+
+
+
+
+
+
+    <a href="https://kaduardo.me"
+       style="text-decoration: none">
+        
+        <img class="rounded-circle profile"
+             alt="Dr. Carlos Eduardo da Silva"
+             title="Dr. Carlos Eduardo da Silva"
+             src="/img/people/carlos.jpg" />
+    
+    </a>
+
+
+                </div>
+            
+        </div>
+    
+</div>
+
+    
+</div>
+
+
+            <div class="footer">
+                <p>
+                    <a href="https://www.shu.ac.uk/about-us/academic-departments/computing/">Department of Computing</a>
+                    at the
+                    <a href="https://shu.ac.uk/">Sheffield Hallam University</a>
+                </p>
+            </div>
+
+        </div> <!-- /container -->
+
+        <!-- Support retina images. -->
+        <script type="text/javascript"
+                src="/js/srcset-polyfill.js"></script>
+    </body>
+</html>
